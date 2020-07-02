@@ -1,0 +1,19 @@
+$rows: var(--rows)
+$columns: var(--columns)
+$backgroundcolor: #eeeeee
+
+#maze-card
+    background-color: $backgroundcolor
+    
+#maze 
+  height: calc(#{$rows} * 3cm)
+  width: calc(#{$columns} * 3cm)
+  display: grid
+  grid-template-columns: repeat(#{$columns}, 1fr)
+  grid-template-rows: repeat(#{$rows}, 1fr)
+  grid-gap: 0px
+  border: 1px solid black
+  margin: auto
+
+#controlsMenu
+    background-color: $backgroundcolor

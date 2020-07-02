@@ -1,0 +1,71 @@
+:host
+  border: 1px solid black
+  position: relative
+  overflow: hidden
+  background-color: white
+
+.invisible
+    background-color: black
+
+.startTile
+    background-color: lightgreen
+
+.endTile
+    background-color: red
+
+
+.left,
+.right,
+.top,
+.bottom,
+.diag-left,
+.diag-right
+  position: absolute
+  background: blue
+  z-index: 5
+
+.floor
+  bottom: 0
+  right: 0
+  left: 0
+  top: 0
+  z-index: 4
+  position: absolute
+
+.left,
+.right
+  top: 0
+  bottom: 0
+  width: 5%
+
+.top,
+.bottom
+  left: 0
+  right: 0
+  height: 5%
+
+.left
+  left: 0
+
+.right
+  right: 0
+
+.top
+  top: 0
+
+.bottom
+  bottom: 0
+
+.diag-left,
+.diag-right
+  width: 5%
+  bottom: -50%
+  top: -50%
+  left: 47.5%
+  transform-origin: center
+
+.diag-left
+  transform: rotate(-45deg)
+
+.diag-right
+  transform: rotate(45deg)

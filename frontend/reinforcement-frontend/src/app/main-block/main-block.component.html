@@ -1,0 +1,12 @@
+<div class="left" *ngIf="data?.walls?.left"></div>
+<div class="right" *ngIf="data?.walls?.right"></div>
+<div class="bottom" *ngIf="data?.walls?.bottom"></div>
+<div class="top" *ngIf="data?.walls?.top"></div>
+<div
+  class="diag-right"
+  *ngIf="data?.walls && (data?.walls)['diag-right']"
+></div>
+<div class="diag-left" *ngIf="data?.walls && (data?.walls)['diag-left']"></div>
+<div class="startTile floor" *ngIf="data?.floor=='start'"></div>
+<div class="endTile floor" *ngIf="data?.floor=='end'"></div>
+<div class="invisible floor" *ngIf="data?.floor=='empty'"></div>

@@ -1,0 +1,16 @@
+<div class="content" role="main">
+    <div id="controlsMenu">
+        <app-controls></app-controls>
+    </div>
+    <mat-card id="maze-card">
+        <mat-card-content>
+        <div id="maze" #elementContainer [style.left.px]="x" [style.top.px]="y">
+            <ng-container *ngFor="let el of elements; let i = index">
+                <ng-container
+                    *appInjectElement="{ component: el, index: i }"
+                ></ng-container>
+            </ng-container>
+        </div>
+    </mat-card-content>
+    </mat-card>
+</div>
