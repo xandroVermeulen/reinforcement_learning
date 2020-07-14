@@ -20,8 +20,6 @@ export class MainBlockComponent implements OnInit {
   };
   constructor() { }
 
-
-
   public toggle_temp(){
     this.temp = !this.temp;
   }

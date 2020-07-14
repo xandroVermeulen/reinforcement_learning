@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reinforcement_learning", "reinforcement_learning\reinforcement_learning.csproj", "{310840EC-6178-462E-8102-BD5C0F16487A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reinforcement_learning", "reinforcement_learning\reinforcement_learning.csproj", "{310840EC-6178-462E-8102-BD5C0F16487A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestReinforcementLearner", "XUnitTestReinforcementLearner\XUnitTestReinforcementLearner.csproj", "{B59511C1-B7A2-4036-ADD4-6299E788DAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{310840EC-6178-462E-8102-BD5C0F16487A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{310840EC-6178-462E-8102-BD5C0F16487A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{310840EC-6178-462E-8102-BD5C0F16487A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59511C1-B7A2-4036-ADD4-6299E788DAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59511C1-B7A2-4036-ADD4-6299E788DAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59511C1-B7A2-4036-ADD4-6299E788DAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59511C1-B7A2-4036-ADD4-6299E788DAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
